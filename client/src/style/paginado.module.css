@@ -1,0 +1,22 @@
+.nav{
+
+    display: flex;
+    
+    justify-content: center;    
+    font-size: 25px;
+}
+.paginas{
+}
+.pagina{
+    background-color: rgba(12, 12, 12, 0.808);
+    margin: 1px;
+    color: rgb(255, 255, 255);
+    font-size: large;
+    padding: 5px;
+
+}
+.pagina:hover{
+    font-size: 25px;
+    transition: 0,6s;
+    color: rgb(72, 236, 72);
+}

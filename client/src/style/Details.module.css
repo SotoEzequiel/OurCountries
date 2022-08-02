@@ -1,0 +1,56 @@
+.todo{
+    background-color: rgba(2, 2, 2, 0.795);
+    color: rgb(174, 177, 179);
+}
+.img{
+    width: 900px;
+    height: 300px;
+}
+.name{
+    font-size: 50px;
+    text-decoration: underline;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+
+}
+.datos{
+    color: rgb(212, 206, 206);
+    word-spacing: 10px;
+    text-align:center;
+    text-decoration: underline;
+    background-color: rgba(214, 200, 200, 0.116);
+}
+.volver{
+    background-color: rgba(11, 80, 228, 0.603);
+    color: rgb(197, 197, 206);
+    /* border: 0px; */
+    height: 30px;
+    width: 400px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    font-size: 21px;
+    border-color: rgb(2, 2, 2);
+    box-shadow: 5px 10px 5px 0px rgba(0, 0, 0, 0.774);
+}
+.actividades{
+    background-color: rgba(252, 246, 246, 0.37);
+    color: black;
+}
+.ATitulo{
+    text-decoration: underline;
+    font-size: 25px;
+    margin-top: 100px;
+}
+.datosActividades{
+    display: flex;
+    justify-content: center;
+    font-weight: 550;
+    
+    
+}
+.p{
+    background-color: rgba(72, 134, 170, 0.705);
+    padding: 50px;
+    font-size: 25px;
+    width: 200px;
+}

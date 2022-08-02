@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,700&display=swap');
+.fondo{
+    margin-top: 200px;
+    
+    height: 300px;
+    margin-left: 30%;
+    margin-right: 30%;
+    border-radius: 20%;
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+}
+.letra{
+    text-transform: uppercase;
+    text-decoration: solid;
+    color: rgb(0, 0, 0);
+    font-size: 600%;
+    cursor: help;
+    box-shadow: 2px 12px 30px 8px rgba(0,0,0,0.51);
+}
+.link{
+    color: rgb(255, 255, 255);
+    font-size: 90px;
+    background-color: rgb(16, 5, 73);
+    border-radius: 100px;
+    cursor: pointer;
+
+}
+.link:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border-radius: 10px;
+    transition: 1s;
+}

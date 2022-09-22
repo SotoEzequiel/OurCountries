@@ -20,8 +20,8 @@ export default function Home() {
     },[])
     //////////////////////PAGINADO//////////////////
     const [currentPage,setCurrentPage]=useState(1)
-    const indexOfLastCountry=currentPage*10;
-    const indexOfFirstCountry=indexOfLastCountry - 10;
+    const indexOfLastCountry=currentPage*22;
+    const indexOfFirstCountry=indexOfLastCountry - 22;
     const currentCountry=stateRedux&&stateRedux.country.slice(indexOfFirstCountry,indexOfLastCountry)
     const paginado=(pageNumber)=>{
         setCurrentPage(pageNumber)
@@ -38,9 +38,10 @@ export default function Home() {
                 <div>
                     <Paginado  paginado={paginado} 
                     allCountries={stateRedux&&stateRedux.country.length}
+                    currentPage={currentPage}
                     />
                     
-                    <div className={estilos.paginaActual} > Actual page: {currentPage}</div>
+                   
                     
                     
                     <div className={estilos.cards}>{
@@ -55,6 +56,12 @@ export default function Home() {
                 </div>
                 {!currentCountry.length && <div className={estilos.eror}>charging...</div> }
                 </div>
+            </div>
+            <div >
+                <a style={{color:"aqua",fontSize:30}}href="https://www.linkedin.com/in/ezequiel-soto/">
+                Developed by Ezequiel Soto
+                    </a>
+                
             </div>
             
             

@@ -16,6 +16,7 @@
         bottom: 3px;
         background-color:rgb(245, 241, 248) ;
         border-radius: 30px;
+        border-style: hidden;
         font-size: 15px;
         font-weight: bold;
         font-family: fantasy;

@@ -1,16 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,700&display=swap');
 .fondo{
-    margin-top: 200px;
-    
-    height: 300px;
-    margin-left: 30%;
-    margin-right: 30%;
-    border-radius: 20%;
+    margin-left: 20%;
+    margin-right: 20%;
     font-family: 'Lato', sans-serif;
     text-decoration: none;
 }
 .letra{
-    text-transform: uppercase;
+    
     text-decoration: solid;
     color: rgb(0, 0, 0);
     font-size: 600%;
@@ -28,6 +24,34 @@
 .link:hover{
     background-color: rgb(255, 255, 255);
     color: black;
-    border-radius: 10px;
+    border-radius: 30px;
+    transition: 1s;
+    
+    
+   
+}
+.footer{
+background-color: rgba(8, 8, 8, 0.548);
+margin-top: 20%;
+padding-top: 20px;
+padding-bottom: 20px;
+font-size: 30px;
+color: white;
+box-shadow: 2px 12px 30px 8px rgba(0,0,0,0.51);
+}
+.footer:hover{
+    background-color: white;
+    color: black;
+    transition: 1s;
+}
+.a{
+    color:rgb(45, 4, 255);
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 40px;
+    font-weight: 600;
+}
+.a:hover{
+    color: aqua;
     transition: 1s;
 }

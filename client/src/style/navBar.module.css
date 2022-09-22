@@ -15,14 +15,17 @@
     justify-content: space-evenly;
 }
 .p{
-   background-color: rgb(4, 184, 255);
+   background-color: aqua;
    font-size: 20px;
    font-weight: bold;
    text-decoration: none;
-   color: aliceblue;
+   color: rgb(49, 50, 51);
    padding-bottom: 3px;
    width: 15%;
    border-radius:4px;
     position: relative;
     bottom: 30px;
+}
+.p:hover{
+    background-color: rgba(16, 192, 192, 0.664);
 }

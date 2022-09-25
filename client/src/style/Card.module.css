@@ -6,6 +6,7 @@
     text-decoration: none;
     justify-content: space-between;
     box-shadow: 10px 10px 25px 15px rgba(0,0,0,0.75);
+    transition: 1s;
 }
 .cards:hover{
     background-color: rgba(121, 118, 118, 0.493);

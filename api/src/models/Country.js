@@ -40,6 +40,19 @@ module.exports = (sequelize) => {
       type: DataTypes.INTEGER,
       allowNull: true,
     },
+    car:{
+      type: DataTypes.STRING,
+      allowNull:true
+    },
+    timezone:{
+      type:DataTypes.STRING,
+      allowNull:true
+
+    },
+    maps:{
+      type:DataTypes.STRING,
+      allowNull:true
+    },
   },{
     freezeTableName: true,
     timestamps:false

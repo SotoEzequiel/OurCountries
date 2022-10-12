@@ -1,15 +1,16 @@
 
 
-#OurCountries
+
+# Objetivos del Proyecto
 
 <p align="left">
   <img height="200" src="./countries.png" />
 </p>
 
-###OurCountries es una app para poder visualizar y ver a detalle todos los países del mundo crear actividades turísticas para los países y más.
+### OurCountries es una app para poder visualizar y ver a detalle todos los países del mundo crear actividades turísticas para los países y más.
 
 
-#LINK https://frontend-ourcountries.vercel.app/
+## LINK https://frontend-ourcountries.vercel.app/
 
 ## Objetivos del Proyecto
 

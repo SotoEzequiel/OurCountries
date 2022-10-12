@@ -6,6 +6,11 @@
   <img height="200" src="./countries.png" />
 </p>
 
+###OurCountries es una app para poder visualizar y ver a detalle todos los países del mundo crear actividades turísticas para los países y más.
+
+
+#https://frontend-ourcountries.vercel.app/
+
 ## Objetivos del Proyecto
 
 - Construir una App utlizando React, Redux, Node y Sequelize.

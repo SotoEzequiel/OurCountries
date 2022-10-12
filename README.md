@@ -9,7 +9,7 @@
 ###OurCountries es una app para poder visualizar y ver a detalle todos los países del mundo crear actividades turísticas para los países y más.
 
 
-#https://frontend-ourcountries.vercel.app/
+#LINK https://frontend-ourcountries.vercel.app/
 
 ## Objetivos del Proyecto
 
@@ -25,6 +25,8 @@
 ## BoilerPlate
 
 El boilerplate cuenta con dos carpetas: `api` y `client`. En estas carpetas estará el código del back-end y el front-end respectivamente.
+
+#crea la base de detos de POSTGRESQL
 
 En `api` crear un archivo llamado: `.env` que tenga la siguiente forma:
 

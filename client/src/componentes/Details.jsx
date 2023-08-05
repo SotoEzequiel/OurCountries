@@ -1,15 +1,16 @@
 import React from "react"
 import { useSelector } from "react-redux"
-import { useHistory } from "react-router-dom"
+import { useNavigate, useParams } from "react-router-dom"
 import estilos from "../style/Details.module.css"
 import { useDispatch } from "react-redux"
 import { useEffect } from "react"
 import { GetCountries } from "../redux/actions"
 
 
-export function Details({ id }) {
+export default function Details() {
 
-
+    const {id} = useParams()
+    
     let stateRedux = useSelector(e => e)
     const dispatch = useDispatch()
     useEffect(() => {
@@ -18,14 +19,14 @@ export function Details({ id }) {
     }, [])
 
 
-    const history = useHistory()
+    const history = useNavigate()
     return (
         <>
             {stateRedux.allCountry ? stateRedux.allCountry.map(e => {
                 if (e.id == id) {
                     return (
                         <div className={estilos.todo}>
-                            <button onClick={() => history.push('/home')} className={estilos.volver}>Home</button>
+                            <button onClick={() => history('/home')} className={estilos.volver}>Home</button>
                             <div className={estilos.pais}>
                                 <div className={estilos.flag}>
                                     <img className={estilos.img} src={e.img} alt={"imagen de " + e.name} />
@@ -44,7 +45,6 @@ export function Details({ id }) {
                                         <p>Main time zone:  {e.timezone}</p>
                                     </div>
                                     <iframe src={e.maps} width="500" height="400" ></iframe>
-
                                 </div>
                             </div>
                             <div>
